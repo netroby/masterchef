@@ -417,6 +417,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = masterchef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netroby.app.ios.masterchef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,6 +432,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = masterchef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netroby.app.ios.masterchef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +507,7 @@
 				87B52F161BA8E3EB008175BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87B52F171BA8E3EB008175BB /* Build configuration list for PBXNativeTarget "masterchefTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +516,7 @@
 				87B52F191BA8E3EB008175BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87B52F1A1BA8E3EB008175BB /* Build configuration list for PBXNativeTarget "masterchefUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +525,7 @@
 				87B52F1C1BA8E3EB008175BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
